@@ -2,7 +2,7 @@ const earthquakeDataUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/sum
 
 // Create a Leaflet map.
 const myMap = L.map("map").setView([37.7749, -122.4194], 5);
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", { attribution: "© OpenStreetMap Contributors" }).addTo(myMap);
+L.tileLayer("https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}.png", { attribution: "© OpenStreetMap Contributors" }).addTo(myMap);
 
 // Marker size and color.
 function calculateMarkerSize(magnitude) {
